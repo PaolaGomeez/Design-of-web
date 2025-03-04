@@ -1,0 +1,257 @@
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container img {
+    width: 40%;
+    max-width: 300px; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 60px 0;
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+.about-me-content img {
+    width: 200px;  
+    height: auto;
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
+
+
+.content-texts h3 {
+    max-width: 800px; 
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+
+.text-header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center; 
+    font-size: 100px;
+    font-family: Anton;
+}
+
+
+
+
+.title {
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+    background: #1F1C2C;  
+    background: -webkit-linear-gradient(to right, #00000017, #1F1C2C), url(img1.jpeg); 
+    background: linear-gradient(to right, #00000017, #000000), url(img1.jpeg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+header.text-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-header h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.text-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.content-texts h3 span {
+    margin-bottom: 15px;
+    padding: 20px; 
+    background: #000000;
+    color: #ffff;
+    border-radius: 60%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px;
+}
+
+.programming-languages {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ddd;
+}
+
+.language, .programming-languages-card {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.language img, .programming-languages-card img {
+    width: 80px;
+}
+
+.general, .general2, .general3 {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background: #010305;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.content-footer {
+    flex: 1; 
+    margin: 10px;  
+    text-align: left; 
+}
+
+
+
+.hobbies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hobby-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.hobby-card:hover {
+    transform: translateY(-5px);
+}
+
+.hobby-card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.hobby-card h2 {
+    color: #333;
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.hobby-card p {
+    color: #666;
+    font-size: 0.95em;
+}
+
+.btn-explore {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-explore:hover {
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    transform: scale(1.05);
+}
+
+

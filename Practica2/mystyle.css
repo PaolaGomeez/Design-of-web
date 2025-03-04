@@ -1,0 +1,189 @@
+/* Estilo general */
+.img-container {
+    background: linear-gradient(135deg, #1991af, #4fc3dc);
+    text-align: center;
+    
+}
+
+.img-container img {
+    width: 70%;
+    
+    
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    margin: 10px; 
+    margin-top: -25px;
+}
+
+.header h1 {
+    font-size: 9em;
+    text-align: center;
+    font-family: "Oswald", serif;
+}
+
+.header p {
+    font-size: 2em;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.projects-container {
+    display: flex;
+} 
+
+.container {
+    padding: 20px;
+    background-color: rgb(173, 173, 216);
+    border: 5px solid rgb(165, 165, 194);
+    outline: 10px solid lightblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.left-column {
+    width: 50%;
+}
+
+.left-column img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.right-column {
+    width: 45%;
+    padding-left: 20px;
+}
+
+.right-column h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.right-column p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.right-column .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.right-column .add-to-cart {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.right-column .add-to-cart:hover {
+    background-color: #2980b9;
+}
+
+.phone-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.phone-card {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.phone-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.phone-card h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.phone-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.phone-card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.phone-card .add-to-cart {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.phone-card .add-to-cart:hover {
+    background-color: #2980b9;
+}
+
+/* Agrega las reglas de responsividad aquí */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-column, .right-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .left-column img {
+        width: 100%;
+        max-width: 400px;  /* Limita el tamaño máximo de la imagen */
+    }
+
+    .right-column .add-to-cart {
+        width: 100%;
+        padding: 14px;
+    }
+
+    .phone-options {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .phone-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    
+}
+
