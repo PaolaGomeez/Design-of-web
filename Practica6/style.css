@@ -1,5 +1,5 @@
 body {
-     background: linear-gradient(to bottom, #a8c0ff, #59a8b4); /* Degradado azul */
+    background: linear-gradient(to bottom, #a8c0ff, #59a8b4); 
     font-family: 'Arial', sans-serif;
     max-width: 600px;
     margin: 20px auto;
