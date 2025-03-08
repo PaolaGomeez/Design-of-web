@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>School Registration Form</title>
+</head>
+
+<body>
+    <h2>School Registration Form</h2>
+    <div class="form" id="registrationForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter full name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="grade">Select grade:</label>
+        <select id="grade" name="grade" required>
+            <option value="1">Grade 1</option>
+            <option value="2">Grade 2</option>
+            <option value="3">Grade 3</option>
+            <option value="4">Grade 4</option>
+        </select>
+
+        <button class="btn" onclick="register()">Register</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                
+                <td>Fullname</td>
+                <td>Email</td>
+                <td>Date of Birth</td>
+                <td>Grade</td>
+                <td>Actions</td>
+            </tr>
+        </thead>
+        <tbody id="studentTable">
+            <tr></tr>
+        </tbody>
+    </table>
+
+    <script src="register.js"></script>
+</body>
+
+</html>
